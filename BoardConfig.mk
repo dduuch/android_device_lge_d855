@@ -20,8 +20,6 @@
 
 TARGET_OTA_ASSERT_DEVICE := g3,d855
 
-# Assertions
-TARGET_BOARD_INFO_FILE ?= device/lge/d855/board-info.txt
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
@@ -53,7 +51,6 @@ TARGET_RECOVERY_FSTAB := device/lge/d855/rootdir/etc/fstab.g3
 NXP_CHIP_TYPE := PN547C2
 
 # Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_g3
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/d855
 
 # RIL

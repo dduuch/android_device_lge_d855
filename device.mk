@@ -58,9 +58,9 @@ PRODUCT_PACKAGES += \
     nfc_nci.d855
 
 # FM Radio
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
+#PRODUCT_PACKAGES += \
+#   FMRadio \
+#   libfmjni
 
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/wcnss/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \

@@ -40,8 +40,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
 
-
-
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl
@@ -55,7 +53,7 @@ PRODUCT_PACKAGES += \
 # NFC packages
 PRODUCT_PACKAGES += \
     NfcNci \
-    nfc_nci.d855
+    nfc_nci.msm8974
 
 # FM Radio
 PRODUCT_PACKAGES += \

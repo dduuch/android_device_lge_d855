@@ -60,11 +60,11 @@ PRODUCT_PACKAGES += \
    libfmjni
 
 PRODUCT_COPY_FILES += \
-    device/lge/g3-common/wcnss/WCNSS_cfg.dat:system/etc/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
-    device/lge/g3-common/wcnss/WCNSS_qcom_cfg.ini:system/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
-    device/lge/g3-common/wcnss/WCNSS_qcom_wlan_nv.bin:system/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \    
+    device/lge/g3-common/wcnss/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    device/lge/g3-common/wcnss/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+    device/lge/g3-common/wcnss/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     device/lge/g3-common/wcnss/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     device/lge/g3-common/wcnss/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
-
+    
 # common g3
 $(call inherit-product, device/lge/g3-common/g3.mk)

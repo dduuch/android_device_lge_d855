@@ -52,9 +52,6 @@ vendor/lib/libnetmgr.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
 
-# Sensors
-etc/sensors/sensor_def_variable.conf
-
 # Venus (media) firmware
 etc/firmware/venus.b00
 etc/firmware/venus.b01
